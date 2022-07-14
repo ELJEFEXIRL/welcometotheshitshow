@@ -1,0 +1,118 @@
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: pink;
+    cursor: none;
+}
+
+
+.circle {
+    height: 20px;
+    width: 200px;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.circle:hover {
+   background: pink;
+}
+
+
+
+@keyframes turn-red {
+    from {background-color: pink;}
+    to {background-color: teal;}
+}
+
+.b1 {
+    animation: turn-red 4s 1s infinite alternate;
+}
+
+.b2 {
+    animation: turn-red 4s 2s infinite alternate;
+}
+
+.b3 {
+    animation: turn-red 4s 3s infinite alternate;
+}
+
+.b4 {
+    animation: turn-red 4s 4s infinite alternate;
+}
+
+.b5 {
+    animation: turn-red 4s 5s infinite alternate;
+}
+
+.b6 {
+    animation: turn-red 4s 6s infinite alternate;
+}
+
+.b7 {
+    animation: turn-red 4s 7s infinite alternate;
+}
+
+.b8 {
+    animation: turn-red 4s 8s infinite alternate;
+}
+
+.c1 {
+    animation: turn-red 4s 9s infinite alternate;
+}
+
+.c2 {
+    animation: turn-red 4s 10s infinite alternate;
+}
+
+.c3 {
+    animation: turn-red 4s 11s infinite alternate;
+}
+
+.c4 {
+    animation: turn-red 4s 12s infinite alternate;
+}
+
+.c5 {
+    animation: turn-red 4s 13s infinite alternate;
+}
+
+.c6 {
+    animation: turn-red 4s 15s infinite alternate;
+}
+
+.c7 {
+    animation: turn-red 4s 16s infinite alternate;
+}
+
+.c8 {
+    animation: turn-red 4s 17s infinite alternate;
+}
+
+.c9 {
+    animation: turn-red 4s 18s infinite alternate;
+}
+
+.c10 {
+    animation: turn-red 4s 19s infinite alternate;
+}
+
+.c11 {
+    animation: turn-red 4s 20s infinite alternate;
+}
+
+.c12 {
+    animation: turn-red 4s 21s infinite alternate;
+}
+
+.c13 {
+    animation: turn-red 4s 22s infinite alternate;
+}
+
+.c14 {
+    animation: turn-red 4s 23s infinite alternate;
+}
+
+.c15 {
+    animation: turn-red 4s 24s infinite alternate;
+}

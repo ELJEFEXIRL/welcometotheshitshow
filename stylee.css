@@ -1,28 +1,155 @@
+*{
+  box-sizing: border-box;
+}
 
 body {
     margin: 0;
     overflow: hidden;
     background: pink;
-    cursor: none;
+    display: flex;
+    flex-grow: 50%;
+    justify-content: center;
+    /*--align-items: center;*/
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+  justify-content: space-around;
 }
 
-
 .circle {
-    height: 20px;
+    height: 200px;
     width: 200px;
     border-radius: 50%;
     transition: 1s;
+
+    animation-delay: 2s;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    grid-gap: 100px 100px;
+    display: flex;
 }
 
 .circle:hover {
    background: pink;
+   height: 200px;
+ width: 200px;
+ border-radius: 50%;
+ animation-name: bounce;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+
 }
 
+.mycircles{
+  animation-delay: 2s;
+  background-color: orange;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  animation-name: bounce;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  grid-gap: 10px 20px;
+  display: flex;
 
+}
 
+.mycircless{
+animation-delay: 2s;
+background-color: purple;
+height: 200px;
+width: 200px;
+border-radius: 50%;
+animation-name: bounce;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+grid-gap: 100px 20px;
+display: flex;
+}
+
+.mycirclesss{
+  animation-delay: 2s;
+  background-color: green;
+ height: 200px;
+ width: 200px;
+ border-radius: 50%;
+ animation-name: bounce;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+ grid-gap: 10px 20px;
+ display: flex;
+}
+
+.mycirclessss{
+  animation-delay: 2s;
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  animation-name: bounce;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  grid-gap: 10px 20px;
+  display: flex;
+}
 @keyframes turn-red {
     from {background-color: pink;}
     to {background-color: teal;}
+}
+
+@keyframes bounce {
+  0%{
+    transform: translateY(-100%);
+    opacity: 0:
+  }
+
+  5%{
+    transform: translateY(-100%);
+    opacity: 0:
+  }
+
+  15%{
+    transform: translateY(0%);
+    padding-bottom: 5px;
+  }
+
+  30%{
+    transform: translateY(-50%);
+  }
+
+  40%{
+    transform: translateY(0%);
+    padding-bottom: 6px;
+  }
+
+  50%{
+    transform: translateY(-30%);
+  }
+
+  70%{
+    transform: translateY(0%);
+    padding-bottom: 7px;
+  }
+
+  80%{
+    transform: translateY(-15%);
+  }
+
+  90%{
+    transform: translateY(0%);
+    padding-bottom: 8px;
+  }
+
+  100%{
+transform: translateY(-7);
+
+  }
+
 }
 
 .b1 {
@@ -54,6 +181,94 @@ body {
 }
 
 .b8 {
+    animation: turn-red 4s 8s infinite alternate;
+}
+
+.b9 {
+    animation: turn-red 4s 1s infinite alternate;
+}
+
+.b10 {
+    animation: turn-red 4s 2s infinite alternate;
+}
+
+.b11 {
+    animation: turn-red 4s 3s infinite alternate;
+}
+
+.b12 {
+    animation: turn-red 4s 4s infinite alternate;
+}
+
+.b13 {
+    animation: turn-red 4s 5s infinite alternate;
+}
+
+.b14 {
+    animation: turn-red 4s 6s infinite alternate;
+}
+
+.b15 {
+    animation: turn-red 4s 7s infinite alternate;
+}
+
+.b16 {
+    animation: turn-red 4s 8s infinite alternate;
+}
+
+.b17 {
+    animation: turn-red 4s 5s infinite alternate;
+}
+
+.b18 {
+    animation: turn-red 4s 6s infinite alternate;
+}
+
+.b19 {
+    animation: turn-red 4s 7s infinite alternate;
+}
+
+.b20 {
+    animation: turn-red 4s 8s infinite alternate;
+}
+
+.b21 {
+    animation: turn-red 4s 7s infinite alternate;
+}
+
+.b22 {
+    animation: turn-red 4s 8s infinite alternate;
+}
+
+.b23 {
+    animation: turn-red 4s 6s infinite alternate;
+}
+
+.b24 {
+    animation: turn-red 4s 7s infinite alternate;
+}
+
+.b25 {
+    animation: turn-red 4s 8s infinite alternate;
+}
+
+.b26 {
+    animation: turn-red 4s 7s infinite alternate;
+}
+
+.b27 {
+    animation: turn-red 4s 8s infinite alternate;
+}
+
+.b28 {
+    animation: turn-red 4s 6s infinite alternate;
+}
+
+.b29 {
+    animation: turn-red 4s 7s infinite alternate;
+}
+
+.b30 {
     animation: turn-red 4s 8s infinite alternate;
 }
 
@@ -114,5 +329,65 @@ body {
 }
 
 .c15 {
+    animation: turn-red 4s 24s infinite alternate;
+}
+
+.c16 {
+    animation: turn-red 4s 9s infinite alternate;
+}
+
+.c17 {
+    animation: turn-red 4s 10s infinite alternate;
+}
+
+.c18 {
+    animation: turn-red 4s 11s infinite alternate;
+}
+
+.c19 {
+    animation: turn-red 4s 12s infinite alternate;
+}
+
+.c20 {
+    animation: turn-red 4s 13s infinite alternate;
+}
+
+.c21 {
+    animation: turn-red 4s 15s infinite alternate;
+}
+
+.c22 {
+    animation: turn-red 4s 16s infinite alternate;
+}
+
+.c23 {
+    animation: turn-red 4s 17s infinite alternate;
+}
+
+.c24 {
+    animation: turn-red 4s 18s infinite alternate;
+}
+
+.c25 {
+    animation: turn-red 4s 19s infinite alternate;
+}
+
+.c26 {
+    animation: turn-red 4s 20s infinite alternate;
+}
+
+.c27 {
+    animation: turn-red 4s 21s infinite alternate;
+}
+
+.c28 {
+    animation: turn-red 4s 22s infinite alternate;
+}
+
+.c29 {
+    animation: turn-red 4s 23s infinite alternate;
+}
+
+.c30 {
     animation: turn-red 4s 24s infinite alternate;
 }
